@@ -1,7 +1,12 @@
 body {
+    margin:0px;
     font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+    background-color: #B0BEC5;
+   
+}
+h1
+{
+ margin:0px;
 }
 
 .center {
@@ -20,3 +25,38 @@ body {
     height: 200px;
 }
 
+.nav ul
+{
+   margin: 0;
+   padding: 0;
+   overflow:hidden;
+   list-style-type:none;
+   background-color:#90A4AE;
+}
+.nav li
+{
+  float:left;
+}
+.nav ul a
+{
+  display:inline-block;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+  color:#37474F;
+}
+.nav ul a:hover
+{
+  color:#90A4AE;
+  background-color:#37474F;
+}
+
+/* ABOUT */
+
+.about-article
+{
+	border: 1px solid black;
+	display:block;
+	margin: 20px;
+        padding:10px;
+}
