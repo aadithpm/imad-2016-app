@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+$primary-color: #ECEFF1;
+$text-color-primary: #37474F;
+$text-color-secondary: #0D47A1;
+$navbar-bg:#CFD8DC;
+$navbar-text:#37474F;
+
+$font-stack-primary:"Open Sans",sans-serif;
+$font-stack-secondary:"Nunito",sans-serif;
+
 body
 {
-    font-family: sans-serif;
-
+    font-family: $font-stack-primary;
+    color:$text-color-primary;
     margin: 0;
 
-    background-color: #b0bec5;
+    background-color: $primary-color;
+
 }
 h1
 {
+    font-family:$font-stack-secondary;
     margin: 0;
 }
 
@@ -36,13 +50,13 @@ h1
     ul
     {
     overflow: hidden;
-
+    font-family:$font-stack-secondary;
     margin: 0;
     padding: 0;
 
     list-style-type: none;
 
-    background-color: #90a4ae;
+    background-color: $navbar-bg;
         a
         {
             display: inline-block;
@@ -52,14 +66,14 @@ h1
             text-align: center;
             text-decoration: none;
 
-            color: #37474f;
+            color: $navbar-text;
             transition-duration:.5s;
             transition-timing-function: linear;
         }
         a:hover
         {
-            color: #90a4ae;
-            background-color: #37474f;
+            color: $navbar-bg;
+            background-color: $navbar-text;
         }
     }
     li
@@ -76,5 +90,5 @@ h1
     margin: 20px;
     padding: 10px;
 
-    border: 1px solid black;
+    border: 1px solid $text-color-primary;
 }
