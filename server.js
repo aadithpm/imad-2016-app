@@ -29,7 +29,7 @@ app.get('/ui/bgimage1.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bgimage1.png'));
 });
 
-var port = 9013; // Use 8080 for local development because you might already have apache running on 80
-app.listen(9013, function () {
+var port = 8080; // Use 8080 for local development because you might already have apache running on 80
+app.listen(8080, function () {
   console.log(`NodeJS Server listening on port:${port}!`);
 });
