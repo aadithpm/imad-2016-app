@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=Cabin");
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe");
 html {
   background: url("/ui/bgimage1.png") no-repeat center center fixed;
   background-size: cover; }
@@ -59,22 +60,6 @@ body {
         margin-right: 26%;
         font-size: 2rem; }
 
-h1 {
-  font-family: "Nunito", sans-serif;
-  margin: 0; }
-
-.center {
-  text-align: center; }
-
-.text-big {
-  font-size: 300%; }
-
-.bold {
-  font-weight: bold; }
-
-.img-medium {
-  height: 200px; }
-
 .nav .active {
   background-color: #161616;
   color: #FBFBFB;
@@ -102,10 +87,46 @@ h1 {
   float: left; }
 
 /* ABOUT */
-.about-article {
+.container {
   display: block;
   margin: 20px;
-  padding: 10px;
-  border: 1px solid #161616; }
+  padding: 10px; }
+  .container h1 {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin: 0; }
+  .container h1:after {
+    width: 60px;
+    border: 1px solid #161616;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px; }
+  .container p {
+    background: #FBFBFB;
+    padding: 20px;
+    border: 3px solid #161616; }
+    .container p a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #0D47A1; }
+    .container p a:hover {
+      text-decoration: overline; }
+    .container p .small {
+      font-size: 0.5rem; }
+
+.footer-fixed {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  padding-right: 20px;
+  width: 100%;
+  background: black; }
+  .footer-fixed #signature {
+    float: right;
+    color: #FBFBFB;
+    margin-left: 20px;
+    font-family: "Mr Dafoe", serif;
+    font-size: 1.2rem; }
 
 /*# sourceMappingURL=style.css.map */

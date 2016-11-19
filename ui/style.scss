@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe');
 
 $primary-color: #FBFBFB;
 $text-color-primary: #161616;
@@ -15,6 +16,7 @@ $font-stack-primary:"Open Sans",sans-serif;
 $font-stack-secondary:"Nunito",sans-serif;
 $font-stack-primary-home:"Lobster",cursive;
 $font-stack-secondary-home:"Cabin",sans-serif;
+$font-stack-sign:"Mr Dafoe",serif;
 
 html
 {
@@ -100,31 +102,6 @@ body
             }
         }
 }
-h1
-{
-    font-family:$font-stack-secondary;
-    margin: 0;
-}
-
-.center
-{
-    text-align: center;
-}
-
-.text-big
-{
-    font-size: 300%;
-}
-
-.bold
-{
-    font-weight: bold;
-}
-
-.img-medium
-{
-    height: 200px;
-}
 
 .nav
 {
@@ -171,12 +148,62 @@ h1
 }
 /* ABOUT */
 
-.about-article
+.container
 {
-    display: block;
+    h1
+    {
+        text-align:center;
+        font-family:$font-stack-secondary;
+        margin: 0;
+    }   
+    h1:after
+    {
+        width:60px;
+        border:1px solid $text-color-primary;
+        display:block;
+        content:"";
+        margin:0 auto;
+        margin-top:10px;
+    }
 
+    display: block;
     margin: 20px;
     padding: 10px;
-
-    border: 1px solid $text-color-primary;
+    p
+    {
+        background:$primary-color;
+        padding:20px;
+        border:3px solid $text-color-primary;
+        a
+        {
+            text-decoration:none;
+            font-size:1rem;
+            color:$text-color-secondary;
+        }
+        a:hover
+        {
+            text-decoration:overline;
+        }
+        .small
+        {
+            font-size:0.5rem;
+        }
+    }
+}
+.footer-fixed
+{
+    bottom:0;
+    position:fixed;
+    right:0;
+    padding-right:20px;
+    width:100%;
+    background:black;
+    #signature
+    {
+        float:right;
+        color:$primary-color;
+        margin-left:20px;
+        font-family:$font-stack-sign;
+        font-size:1.2rem;
+    }
 }
