@@ -22,6 +22,10 @@ h1 {
 .img-medium {
   height: 200px; }
 
+.nav .active {
+  background-color: #37474F;
+  color: #ECEFF1;
+  text-decoration: underline; }
 .nav ul {
   overflow: hidden;
   font-family: "Nunito", sans-serif;
@@ -35,8 +39,8 @@ h1 {
     text-align: center;
     text-decoration: none;
     color: #37474F;
-    transition-duration: .5s;
-    transition-timing-function: linear; }
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out; }
   .nav ul a:hover {
     color: #CFD8DC;
     background-color: #37474F; }

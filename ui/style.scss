@@ -47,6 +47,12 @@ h1
 
 .nav
 {
+    .active
+    {
+        background-color:$text-color-primary;
+        color:$primary-color;
+        text-decoration:underline;
+    }
     ul
     {
     overflow: hidden;
@@ -67,8 +73,8 @@ h1
             text-decoration: none;
 
             color: $navbar-text;
-            transition-duration:.5s;
-            transition-timing-function: linear;
+            transition-duration:.3s;
+            transition-timing-function: ease-in-out;
         }
         a:hover
         {
