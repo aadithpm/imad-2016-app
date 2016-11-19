@@ -1,62 +1,48 @@
 body {
-    margin:0px;
-    font-family: sans-serif;
-    background-color: #B0BEC5;
-   
-}
-h1
-{
- margin:0px;
-}
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #b0bec5; }
+
+h1 {
+  margin: 0; }
 
 .center {
-    text-align: center;
-}
+  text-align: center; }
 
 .text-big {
-    font-size: 300%;
-}
+  font-size: 300%; }
 
 .bold {
-    font-weight: bold;
-}
+  font-weight: bold; }
 
 .img-medium {
-    height: 200px;
-}
+  height: 200px; }
 
-.nav ul
-{
-   margin: 0;
-   padding: 0;
-   overflow:hidden;
-   list-style-type:none;
-   background-color:#90A4AE;
-}
-.nav li
-{
-  float:left;
-}
-.nav ul a
-{
-  display:inline-block;
-  text-align:center;
-  padding: 14px 16px;
-  text-decoration:none;
-  color:#37474F;
-}
-.nav ul a:hover
-{
-  color:#90A4AE;
-  background-color:#37474F;
-}
+.nav ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #90a4ae; }
+  .nav ul a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #37474f;
+    transition-duration: .5s;
+    transition-timing-function: linear; }
+  .nav ul a:hover {
+    color: #90a4ae;
+    background-color: #37474f; }
+.nav li {
+  float: left; }
 
 /* ABOUT */
+.about-article {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black; }
 
-.about-article
-{
-	border: 1px solid black;
-	display:block;
-	margin: 20px;
-        padding:10px;
-}
+/*# sourceMappingURL=style.css.map */
