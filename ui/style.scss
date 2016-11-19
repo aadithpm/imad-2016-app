@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
 
-$primary-color: #ECEFF1;
-$text-color-primary: #37474F;
+$primary-color: #FBFBFB;
+$text-color-primary: #161616;
 $text-color-secondary: #0D47A1;
 $text-color-primary-home: #212121;
 $text-color-secondary-home: #F5F5F5;
-$navbar-bg:#CFD8DC;
-$navbar-text:#37474F;
+$navbar-bg:#FBFBFB;
+$navbar-text:#161616;
 
 $font-stack-primary:"Open Sans",sans-serif;
 $font-stack-secondary:"Nunito",sans-serif;
@@ -24,6 +24,7 @@ html
 
 body
 {
+    margin:0;
     .heading-wrapper
     {
         margin-top:13%;
@@ -139,10 +140,11 @@ h1
     font-family:$font-stack-secondary;
     margin: 0;
     padding: 0;
+    border-bottom:2px solid $navbar-text;
 
     list-style-type: none;
 
-    background-color: $navbar-bg;
+    background-color: rgba($navbar-bg,1);
         a
         {
             display: inline-block;

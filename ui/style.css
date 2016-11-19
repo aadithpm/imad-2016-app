@@ -6,56 +6,58 @@ html {
   background: url("/ui/bgimage1.png") no-repeat center center fixed;
   background-size: cover; }
 
-body .heading-wrapper {
-  margin-top: 13%; }
-  body .heading-wrapper .heading-title {
-    font-size: 4rem;
-    font-family: "Lobster", cursive;
-    color: #212121;
-    text-align: center; }
-  body .heading-wrapper .heading-caption {
-    font-size: 1.3rem;
-    font-family: "Cabin", sans-serif;
-    color: #212121;
-    text-align: center;
-    letter-spacing: 6px;
-    margin-top: 20px;
-    text-transform: uppercase; }
-  body .heading-wrapper .heading-caption:after {
-    width: 60px;
-    border: 1px solid #212121;
-    display: block;
-    content: "";
-    margin: 0 auto;
-    margin-top: 10px; }
-body .links-nav {
-  font-family: "Cabin", sans-serif; }
-  body .links-nav ul {
-    list-style-type: none;
-    margin-top: 40px;
-    margin-left: 24%;
-    width: 50%; }
-    body .links-nav ul li {
-      display: inline;
-      font-size: 1.2rem;
-      padding: 10px;
-      border: 3px solid #212121;
-      transition-timing-function: linear;
-      transition-duration: .5s; }
-      body .links-nav ul li a {
-        color: #212121;
-        text-decoration: none;
+body {
+  margin: 0; }
+  body .heading-wrapper {
+    margin-top: 13%; }
+    body .heading-wrapper .heading-title {
+      font-size: 4rem;
+      font-family: "Lobster", cursive;
+      color: #212121;
+      text-align: center; }
+    body .heading-wrapper .heading-caption {
+      font-size: 1.3rem;
+      font-family: "Cabin", sans-serif;
+      color: #212121;
+      text-align: center;
+      letter-spacing: 6px;
+      margin-top: 20px;
+      text-transform: uppercase; }
+    body .heading-wrapper .heading-caption:after {
+      width: 60px;
+      border: 1px solid #212121;
+      display: block;
+      content: "";
+      margin: 0 auto;
+      margin-top: 10px; }
+  body .links-nav {
+    font-family: "Cabin", sans-serif; }
+    body .links-nav ul {
+      list-style-type: none;
+      margin-top: 40px;
+      margin-left: 24%;
+      width: 50%; }
+      body .links-nav ul li {
+        display: inline;
+        font-size: 1.2rem;
+        padding: 10px;
+        border: 3px solid #212121;
         transition-timing-function: linear;
         transition-duration: .5s; }
-      body .links-nav ul li a:hover {
-        color: #ECEFF1; }
-    body .links-nav ul li:hover {
-      background-color: #212121;
-      border: 3px solid #212121; }
-    body .links-nav ul li:nth-child(2) {
-      margin-left: 26%;
-      margin-right: 26%;
-      font-size: 2rem; }
+        body .links-nav ul li a {
+          color: #212121;
+          text-decoration: none;
+          transition-timing-function: linear;
+          transition-duration: .5s; }
+        body .links-nav ul li a:hover {
+          color: #FBFBFB; }
+      body .links-nav ul li:hover {
+        background-color: #212121;
+        border: 3px solid #212121; }
+      body .links-nav ul li:nth-child(2) {
+        margin-left: 26%;
+        margin-right: 26%;
+        font-size: 2rem; }
 
 h1 {
   font-family: "Nunito", sans-serif;
@@ -74,27 +76,28 @@ h1 {
   height: 200px; }
 
 .nav .active {
-  background-color: #37474F;
-  color: #ECEFF1;
+  background-color: #161616;
+  color: #FBFBFB;
   text-decoration: underline; }
 .nav ul {
   overflow: hidden;
   font-family: "Nunito", sans-serif;
   margin: 0;
   padding: 0;
+  border-bottom: 2px solid #161616;
   list-style-type: none;
-  background-color: #CFD8DC; }
+  background-color: #fbfbfb; }
   .nav ul a {
     display: inline-block;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
-    color: #37474F;
+    color: #161616;
     transition-duration: .3s;
     transition-timing-function: ease-in-out; }
   .nav ul a:hover {
-    color: #CFD8DC;
-    background-color: #37474F; }
+    color: #FBFBFB;
+    background-color: #161616; }
 .nav li {
   float: left; }
 
@@ -103,6 +106,6 @@ h1 {
   display: block;
   margin: 20px;
   padding: 10px;
-  border: 1px solid #37474F; }
+  border: 1px solid #161616; }
 
 /*# sourceMappingURL=style.css.map */
