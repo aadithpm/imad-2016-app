@@ -1,29 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 
 $primary-color: #ECEFF1;
 $text-color-primary: #37474F;
 $text-color-secondary: #0D47A1;
+$text-color-primary-home: #212121;
+$text-color-secondary-home: #F5F5F5;
 $navbar-bg:#CFD8DC;
 $navbar-text:#37474F;
 
 $font-stack-primary:"Open Sans",sans-serif;
 $font-stack-secondary:"Nunito",sans-serif;
+$font-stack-primary-home:"Lobster",cursive;
+$font-stack-secondary-home:"Cabin",sans-serif;
+
+html
+{
+     background:url("/ui/bgimage1.png") no-repeat center center fixed;
+    background-size:cover;
+}
 
 body
 {
-    font-family: $font-stack-primary;
-    color:$text-color-primary;
-    margin: 0;
-    background-color: $primary-color;
-
     .jumbotron-image
     {
-        background:url("/ui/bgimage1.png");
-        height:100%;
-        width:100%;
     }
 
+    .heading-wrapper
+    {
+        margin-top:13%;
+        .heading-title
+        {
+            font-size:4rem;
+            font-family:$font-stack-primary-home;
+            color:$text-color-primary-home;
+            text-align:center;
+        }
+    
+        .heading-caption
+        {
+            font-size:1.3rem;
+            font-family:$font-stack-secondary-home;
+            color:$text-color-primary-home;
+            text-align:center;
+            letter-spacing: 6px;
+            margin-top:20px;
+            text-transform: uppercase;
+        }
+        .heading-caption:after
+        {
+            width:60px;
+            border:1px solid $text-color-primary-home;
+            display:block;
+            content:"";
+            margin:0 auto;
+            margin-top:10px;
+        }
+    }
 }
 h1
 {

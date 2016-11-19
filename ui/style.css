@@ -1,14 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Nunito");
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #37474F;
-  margin: 0;
-  background-color: #ECEFF1; }
-  body .jumbotron-image {
-    background: url("/ui/bgimage1.png");
-    height: 100%;
-    width: 100%; }
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+html {
+  background: url("/ui/bgimage1.png") no-repeat center center fixed;
+  background-size: cover; }
+
+body .heading-wrapper {
+  margin-top: 13%; }
+  body .heading-wrapper .heading-title {
+    font-size: 4rem;
+    font-family: "Lobster", cursive;
+    color: #212121;
+    text-align: center; }
+  body .heading-wrapper .heading-caption {
+    font-size: 1.3rem;
+    font-family: "Cabin", sans-serif;
+    color: #212121;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-top: 20px;
+    text-transform: uppercase; }
+  body .heading-wrapper .heading-caption:after {
+    width: 60px;
+    border: 1px solid #212121;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px; }
 
 h1 {
   font-family: "Nunito", sans-serif;
