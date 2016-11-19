@@ -28,6 +28,34 @@ body .heading-wrapper {
     content: "";
     margin: 0 auto;
     margin-top: 10px; }
+body .links-nav {
+  font-family: "Cabin", sans-serif; }
+  body .links-nav ul {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 24%;
+    width: 50%; }
+    body .links-nav ul li {
+      display: inline;
+      font-size: 1.2rem;
+      padding: 10px;
+      border: 3px solid #212121;
+      transition-timing-function: linear;
+      transition-duration: .5s; }
+      body .links-nav ul li a {
+        color: #212121;
+        text-decoration: none;
+        transition-timing-function: linear;
+        transition-duration: .5s; }
+      body .links-nav ul li a:hover {
+        color: #ECEFF1; }
+    body .links-nav ul li:hover {
+      background-color: #212121;
+      border: 3px solid #212121; }
+    body .links-nav ul li:nth-child(2) {
+      margin-left: 26%;
+      margin-right: 26%;
+      font-size: 2rem; }
 
 h1 {
   font-family: "Nunito", sans-serif;

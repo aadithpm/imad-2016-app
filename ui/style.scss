@@ -24,10 +24,6 @@ html
 
 body
 {
-    .jumbotron-image
-    {
-    }
-
     .heading-wrapper
     {
         margin-top:13%;
@@ -59,6 +55,49 @@ body
             margin-top:10px;
         }
     }
+    .links-nav
+        {
+            font-family: $font-stack-secondary-home;
+            ul
+            {
+                list-style-type:none;
+                margin-top:40px;
+                margin-left: 24%;
+                width:50%;
+                li
+                {
+                    a
+                    {
+                        color:$text-color-primary-home;
+                        text-decoration:none;
+                        transition-timing-function: linear;
+                        transition-duration: .5s;
+                    }
+                    a:hover
+                    {
+                        color:$primary-color;
+                    }
+                    display:inline;
+                    font-size:1.2rem;
+                    padding:10px;
+                    border:3px solid $text-color-primary-home;
+                    transition-timing-function: linear;
+                    transition-duration: .5s;
+
+                }
+                li:hover
+                {
+                    background-color:$text-color-primary-home;
+                    border:3px solid $text-color-primary-home;
+                }
+                li:nth-child(2)
+                {
+                    margin-left:26%;
+                    margin-right:26%;
+                    font-size:2rem;
+                }
+            }
+        }
 }
 h1
 {
