@@ -5,6 +5,10 @@ body {
   color: #37474F;
   margin: 0;
   background-color: #ECEFF1; }
+  body .jumbotron-image {
+    background: url("/ui/bgimage1.png");
+    height: 100%;
+    width: 100%; }
 
 h1 {
   font-family: "Nunito", sans-serif;

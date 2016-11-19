@@ -15,8 +15,14 @@ body
     font-family: $font-stack-primary;
     color:$text-color-primary;
     margin: 0;
-
     background-color: $primary-color;
+
+    .jumbotron-image
+    {
+        background:url("/ui/bgimage1.png");
+        height:100%;
+        width:100%;
+    }
 
 }
 h1
