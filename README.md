@@ -15,3 +15,4 @@ Front-end design.
 * Coded on a Linux workstation with Sublime Text
 * CSS beautified with CSSComb
 
+You can view a preview of the web app [here](http://aadithpm.imad.hasura-app.io/), although the server might not be up, in which case, you can't.
